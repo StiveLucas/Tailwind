@@ -1,0 +1,33 @@
+Na parte do seu HTML, que é o arquivo index.html
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+
+#É nessa parte que vamos trabalhar. Para dar cor a um texto digite text e dê Ctrl espaço,
+vai aparecer varias cores para você escolher.
+    <div class="text-red-600/">
+        Texto 1
+#Você tambem pode dar tonalidade na cor, apenas depois do número coloque uma / e,
+escolha porcentagem atravez de um número, como no exemplo abiaxo.
+    </div>
+    <div class="text-fuchsia-900/55">
+        Texto 2
+    <div>
+
+  #Agora vamos para um botão 
+        <button class="bg-blue-800/55 border border-b-red-800  text-primary">
+            Botão
+        </button>
+
+        <button class="bg-primary text-amber-50 px-4 py-2">
+            Teste
+        </button>
+    </div>
+  </body>
+</html>
