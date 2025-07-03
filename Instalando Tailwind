@@ -1,0 +1,25 @@
+Como Instalar o Tailwind ?
+
+1)Instale o Node.js na sua máquina(20 ou superior).
+2)No seu VsCode, no terminal instale usando esse comando (npm install tailwindcss @tailwindcss/cli)
+3)Crie uma pasta chamada src e dentro um arquivo com nome de input.css
+4)Dentro do input.css coloque (@import "tailwindcss";) e salve o arquivo
+5)No src crie outra pasta com o nome index.html
+6)Dentro do index.htl cole td abaixo:
+
+  <!doctype html>
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  </body>
+  </html>
+
+7)No terminal novamente digite esse comando para ligar o projeto (npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch)
+OBS: para o projeto está funcionado, esse comando tem que está funcionando.
