@@ -1,0 +1,49 @@
+#Na parte do seu HTML, que é o arquivo index.html
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="space-y-52 space-x-44">
+
+    #bg serve para colocar cor, como dito no Tutorial de Cores,
+     o w é a largura e o h a altura.
+    <div class="bg-amber-300 w-32 h-28">
+        Div Qualquer
+
+          #Aqui colocamos umminico e maximo de w(largura) e h(altura)
+        <h1 class="bg-fuchsia-700 w-40 min-w-20 h-56 max-h-10">Legal</h1>
+        <br/>
+
+          #Ja o Size é o tamanho no geral(alturae largura ao mesmo tempo)
+          #já o p é espacemento das mordas, se voce colocar um x ou um y depois do p (px-numero) ou
+            (py-numero). O x serve para as lateras e o y para cima e baixo.
+          #Já o my ele faz a mesma coisa que o p, porém ele puxa todos os elementos, a cor etc...
+        <h1 class="bg-amber-400 size-24 p-10 my-14">Top</h1>
+        
+    </div>
+    <div class="bg-blue-800 w-32 h-28">
+        Div Qualquer
+
+        #Aqui vemos o minimo e maximo, independente do valor colocado o minimo sempre será o digitado
+        e independente do valor colocado o maximo sempre será o digitado
+        <h1 class="bg-fuchsia-700 w-40 min-w-20 h-56 max-h-10">Legal</h1>
+        <br/>
+        <h1 class="bg-amber-400 size-24 p-10 my-14">Top</h1>
+        
+    </div>
+    <div class="bg-fuchsia-800 w-32 h-28">
+        Div Qualquer
+
+        <h1 class="bg-fuchsia-700 w-40 min-w-20 h-56 max-h-10">Legal</h1>
+        <br/>
+        <h1 class="bg-amber-400 size-24 p-10 my-14">Top</h1>
+        
+    </div>
+   
+  </body>
+</html>
