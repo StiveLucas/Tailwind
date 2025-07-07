@@ -20,7 +20,7 @@
         <br/>
 
           #Ja o Size é o tamanho no geral(alturae largura ao mesmo tempo)
-          #já o p é espacemento das mordas, se voce colocar um x ou um y depois do p (px-numero) ou
+          #já o p é espacemento das bordas, se voce colocar um x ou um y depois do p (px-numero) ou
             (py-numero). O x serve para as lateras e o y para cima e baixo.
           #Já o my ele faz a mesma coisa que o p, porém ele puxa todos os elementos, a cor etc...
         <h1 class="bg-amber-400 size-24 p-10 my-14">Top</h1>

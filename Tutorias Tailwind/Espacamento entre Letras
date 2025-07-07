@@ -1,0 +1,72 @@
+#Os Ensinamentos estpa no prório codigo, apenas leia.
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section>
+
+      #Esse text-4xl é o tamanho da letra, já o font-black é a fonte
+      <h1 class="text-4xl font-black">Título Principal -H1</h1>
+      <h2 class="text-2xl font-semibold">Subtitulo -H1</h2>
+      <p class="text-base">
+        Este é um parágrafo padrão com <span class="font-bold">Negrito</span> e <span class="italic">italic</span>
+      </p>
+    </section>
+
+    <section>
+      <h1 class="text-4xl font-black">Espaçamento e Altura de linha e letras:</h1>
+      <div class="space-y-4">
+        <br>
+        <h2 class="text-3xl font-bold">Espaçamento entre Letras</h2>
+
+        <p class="tracking-tighter">Texto Qualquer 1</p>
+        <p class="tracking-tight">Texto Qualquer 2</p>
+        <p class="tracking-normal">Texto Qualquer 3</p>
+        <p class="tracking-widest">Texto Qualquer 4</p>
+
+        <h2 class="text-3xl font-bold">Altura entre Linhas</h2>
+
+        <p class="leading-tight">Texto Qualquer 1</p>
+        <p class="leading-loose">Texto Qualquer 2</p>
+        <p class="leading-normal">Texto Qualquer 3</p>
+
+      </div>
+
+      <div>
+        <h1 class="text-4xl font-bold">Alinhamento de Texto:</h1>
+
+        <p class="text-left">
+          Texto alinhado á esquerda</p>
+
+        <p class="text-right">
+          Texto alinhado á direnta</p>
+
+        <p class="text-center">
+          Texto centralizado</p>
+
+        <p class="text-justify break-words">
+          Texto justificado
+        </p>
+
+        <br>
+        <h1 class="text-4xl font-bold">MAIÚSCULA e minúscula:</h1>
+        
+        <p class="uppercase">
+          boa tarde!
+        </p>
+
+        <p class="lowercase">
+          boa tarde.
+        </p>
+        
+      </div>
+
+    </section>
+  </body>
+</html>
